@@ -13,7 +13,7 @@
                 "image":"/images/dress2.jpg",
                 "description":"about dress 2",
                 "price":29,
-                "availableSizes":"M,L"},
+                "availableSizes":"S,XL"},
                 {
                     "_id":"dress3",
                     "title":"Dress 3",
@@ -27,14 +27,14 @@
                         "image":"/images/dress4.jpg",
                         "description":"about dress 4",
                         "price":23.99,
-                        "availableSizes":"M,L"},
+                        "availableSizes":"S,L"},
                         {
                             "_id":"dress5",
                             "title":"Dress 5",
                             "image":"/images/dress5.jpg",
                             "description":"about dress 5",
                             "price":20.99,
-                            "availableSizes":"M,L"},
+                            "availableSizes":"XXL,L"},
                             {
                                 "_id":"dress6",
                                 "title":"Dress 6",
