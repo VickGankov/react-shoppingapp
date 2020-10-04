@@ -2,49 +2,49 @@
   "products": [
     {
       "_id": "dress1",
-      "title": "Dress 1",
+      "title": "Black Dress",
       "image": "/images/dress1.jpg",
-      "description": "about dress 1",
+      "description": "Turn heads in the Black Talking Body Wrap Bodycon Dress, a ruched mini dress with a wrapover front and trend-led cage straps at the back. This strappy bodycon wrap dress is perfect with heels and your most sparkling conversation.",
       "price": 19,
       "availableSizes": ["S","XL"]
     },
     {
       "_id": "dress2",
-      "title": "Dress 2",
+      "title": "White Dress",
       "image": "/images/dress2.jpg",
-      "description": "about dress 2",
+      "description": "Turn heads in the White Talking Body Wrap Bodycon Dress, a ruched mini dress with a wrapover front and trend-led cage straps at the back. This strappy bodycon wrap dress is perfect with heels and your most sparkling conversation.",
       "price": 29,
       "availableSizes": ["S","L","XL"]
     },
     {
       "_id": "dress3",
-      "title": "Dress 3",
+      "title": "Baige Dress",
       "image": "/images/dress3.jpg",
-      "description": "about dress 3",
+      "description": "Turn heads in the Baige Talking Body Wrap Bodycon Dress, a ruched mini dress with a wrapover front and trend-led cage straps at the back. This strappy bodycon wrap dress is perfect with heels and your most sparkling conversation.",
       "price": 15,
       "availableSizes": ["L","XL"]
     },
     {
       "_id": "dress4",
-      "title": "Dress 4",
+      "title": "Maroon Dress",
       "image": "/images/dress4.jpg",
-      "description": "about dress 4",
+      "description": "Turn heads in the Maroon Talking Body Wrap Bodycon Dress, a ruched mini dress with a wrapover front and trend-led cage straps at the back. This strappy bodycon wrap dress is perfect with heels and your most sparkling conversation.",
       "price": 23.99,
       "availableSizes": ["S","M","XL"]
     },
     {
       "_id": "dress5",
-      "title": "Dress 5",
+      "title": "Flower Dress",
       "image": "/images/dress5.jpg",
-      "description": "about dress 5",
+      "description": "Turn heads in the Flower Talking Body Wrap Bodycon Dress, a ruched mini dress with a wrapover front and trend-led cage straps at the back. This strappy bodycon wrap dress is perfect with heels and your most sparkling conversation.",
       "price": 20.99,
       "availableSizes": ["M","L","XL"]
     },
     {
       "_id": "dress6",
-      "title": "Dress 6",
+      "title": "Camel Dress",
       "image": "/images/dress6.jpg",
-      "description": "about dress 6",
+      "description": "Turn heads in the Camel Talking Body Wrap Bodycon Dress, a ruched mini dress with a wrapover front and trend-led cage straps at the back. This strappy bodycon wrap dress is perfect with heels and your most sparkling conversation.",
       "price": 28.99,
       "availableSizes": ["M","L"]
     }
