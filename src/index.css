@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -8,18 +9,15 @@ body,
   height: 100vh;
   margin: 0;
 }
-
 body,
 input,
 select,
-textarea,
-button {
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
-a {
-  text-decoration: none;
-}
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -30,20 +28,20 @@ a {
   grid-template-columns: 1fr;
   height: 100%;
 }
-
+a {
+  text-decoration: none;
+}
 a:hover {
   color: #ff8000;
 }
-
 header {
-  padding: 0.5rem;
   grid-area: header;
   background-color: #203040;
   color: #ffffff;
   display: flex;
   align-items: center;
+  padding: 0.5rem;
 }
-
 header a {
   color: #ffffff;
   text-decoration: none;
@@ -59,6 +57,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +69,7 @@ footer {
   flex: 1 20rem;
 }
 
-/*products */
+/* products */
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -117,21 +116,21 @@ footer {
 .button:hover {
   border: 0.1rem #808080 solid;
 }
-.button-primary {
-  background-color: #ffc040;
+.button.primary {
+  background-color: #f0c040;
 }
-/*Filter */
+/* Filter */
 .filter {
   display: flex;
+  justify-content: space-between;
   padding: 1rem;
   margin: 1rem;
   border-bottom: 0.1rem #c0c0c0 solid;
-  justify-content: space-between;
 }
 .filter div {
   flex: 1;
 }
-/* index.css */
+/* Index.css */
 .cart {
   padding: 1rem;
   margin: 1rem;
@@ -154,7 +153,7 @@ footer {
 .cart-items li div {
   padding: 0.5rem;
 }
-.car-items li div:last-child {
+.cart-items li div:last-child {
   flex: 1;
 }
 .right {
@@ -163,8 +162,8 @@ footer {
 .total {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
+  width: 100%;
 }
 .total > div {
   font-size: 2rem;
@@ -191,27 +190,25 @@ input {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
 }
-/* Product details */
-.product-details{
+/* Product Details */
+.product-details {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-height: 96vh;
-
 }
-.product-details img{
-  max-height: 96vh;
+.product-details img {
+  max-height: 100vh;
   max-width: 46rem;
   margin: 0 auto;
-
 }
-.product-details-description{
-  flex:1 1;
+.product-details-description {
+  flex: 1 1;
   margin: 1rem;
 }
-.close-modal{
+.close-modal {
   position: absolute;
-  right:1rem;
-  top:2.5rem;
+  right: 1rem;
+  top: 2.5rem;
   z-index: 1000;
 }
