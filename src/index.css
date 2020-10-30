@@ -41,6 +41,7 @@ header {
   display: flex;
   align-items: center;
   padding: 0.5rem;
+  align-items: center;
 }
 header a {
   color: #ffffff;
@@ -91,8 +92,8 @@ footer {
   height: 100%;
 }
 .product img {
-  max-width: 36rem;
-  max-height: 36rem;
+  max-width: 37rem;
+  max-height: 37rem;
 }
 .product-price {
   display: flex;
@@ -211,4 +212,29 @@ input {
   right: 1rem;
   top: 2.5rem;
   z-index: 1000;
+}
+
+/* Order Details */
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.order-details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-details li div {
+  padding: 10px;
+}
+.order-details .items {
+  text-align: right;
+  padding: 0;
+}
+.success-message {
+  color: green;
 }
